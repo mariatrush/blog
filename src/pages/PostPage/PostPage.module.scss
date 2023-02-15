@@ -1,0 +1,35 @@
+.container{
+    height: calc(100vh - 160px);
+}
+.title{
+    text-align: center;
+}
+
+.imgWrapper{
+    max-height:450px;
+    display: flex;
+    overflow:hidden;
+}
+.image{
+    object-fit: cover;
+    object-position: center center;
+    margin: 0 auto;
+}
+.date{
+    text-align: center;
+    font-size:14px;
+    margin: 10px 0;
+    color:#aaa;
+
+}
+.author{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: .7rem;
+    font-weight: bold;
+}
+.content{
+    margin: 30px 0;
+    line-height: 20px;
+    padding: 0 50px 20px 50px;
+}

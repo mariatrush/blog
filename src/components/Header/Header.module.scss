@@ -1,0 +1,42 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:15px;
+    padding: 0 20px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+    height: 80px;
+    align-items: center;
+    box-shadow: rgba(167, 169, 172, 0.2) 0px 8px 24px;
+}
+:global(.dark) .headerContainer {
+    background-color: rgba(167, 169, 172, 0.2);
+    box-shadow: none;
+}
+
+.nagivation{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+.leftSide{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+.signUpWrapper{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7px;
+}
+
+.themeContainer{
+    cursor: pointer;
+    width: 60px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
